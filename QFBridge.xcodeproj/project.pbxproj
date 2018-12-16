@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD4C840521C6906500A674F2 /* HandsetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C83FE21C6906500A674F2 /* HandsetGame.swift */; };
+		FD4C840621C6906500A674F2 /* HandsetGameN.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C83FF21C6906500A674F2 /* HandsetGameN.swift */; };
+		FD4C840721C6906500A674F2 /* HandsetGameM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C840021C6906500A674F2 /* HandsetGameM.swift */; };
+		FD4C840821C6906500A674F2 /* HandsetSoft.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C840221C6906500A674F2 /* HandsetSoft.swift */; };
+		FD4C840921C6906500A674F2 /* HandsetGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C840321C6906500A674F2 /* HandsetGames.swift */; };
+		FD4C840A21C6906500A674F2 /* HandsetAddressList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C840421C6906500A674F2 /* HandsetAddressList.swift */; };
+		FD4C840E21C690AD00A674F2 /* HandsetBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C840D21C690AD00A674F2 /* HandsetBrand.swift */; };
+		FD4C841021C691AA00A674F2 /* HandsetBrandM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C840F21C691AA00A674F2 /* HandsetBrandM.swift */; };
+		FD4C841221C691EF00A674F2 /* HandsetBrandN.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C841121C691EF00A674F2 /* HandsetBrandN.swift */; };
+		FD4C841421C696D000A674F2 /* HadnsetBrandO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C841321C696D000A674F2 /* HadnsetBrandO.swift */; };
+		FD4C841621C6972800A674F2 /* HandsetMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C841521C6972800A674F2 /* HandsetMusic.swift */; };
+		FD5EA83021C615DF00E61356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5EA82F21C615DF00E61356 /* AppDelegate.swift */; };
+		FD5EA83221C615DF00E61356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5EA83121C615DF00E61356 /* ViewController.swift */; };
+		FD5EA83521C615DF00E61356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5EA83321C615DF00E61356 /* Main.storyboard */; };
+		FD5EA83721C615E000E61356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5EA83621C615E000E61356 /* Assets.xcassets */; };
+		FD5EA83A21C615E000E61356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5EA83821C615E000E61356 /* LaunchScreen.storyboard */; };
+		FD5EA84521C615E100E61356 /* QFBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5EA84421C615E100E61356 /* QFBridgeTests.swift */; };
+		FD5EA85021C615E100E61356 /* QFBridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5EA84F21C615E100E61356 /* QFBridgeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD5EA84121C615E100E61356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD5EA82421C615DF00E61356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD5EA82B21C615DF00E61356;
+			remoteInfo = QFBridge;
+		};
+		FD5EA84C21C615E100E61356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD5EA82421C615DF00E61356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD5EA82B21C615DF00E61356;
+			remoteInfo = QFBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD4C83FE21C6906500A674F2 /* HandsetGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandsetGame.swift; sourceTree = "<group>"; };
+		FD4C83FF21C6906500A674F2 /* HandsetGameN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandsetGameN.swift; sourceTree = "<group>"; };
+		FD4C840021C6906500A674F2 /* HandsetGameM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandsetGameM.swift; sourceTree = "<group>"; };
+		FD4C840221C6906500A674F2 /* HandsetSoft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandsetSoft.swift; sourceTree = "<group>"; };
+		FD4C840321C6906500A674F2 /* HandsetGames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandsetGames.swift; sourceTree = "<group>"; };
+		FD4C840421C6906500A674F2 /* HandsetAddressList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandsetAddressList.swift; sourceTree = "<group>"; };
+		FD4C840D21C690AD00A674F2 /* HandsetBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetBrand.swift; sourceTree = "<group>"; };
+		FD4C840F21C691AA00A674F2 /* HandsetBrandM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetBrandM.swift; sourceTree = "<group>"; };
+		FD4C841121C691EF00A674F2 /* HandsetBrandN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetBrandN.swift; sourceTree = "<group>"; };
+		FD4C841321C696D000A674F2 /* HadnsetBrandO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadnsetBrandO.swift; sourceTree = "<group>"; };
+		FD4C841521C6972800A674F2 /* HandsetMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetMusic.swift; sourceTree = "<group>"; };
+		FD5EA82C21C615DF00E61356 /* QFBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5EA82F21C615DF00E61356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD5EA83121C615DF00E61356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD5EA83421C615DF00E61356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD5EA83621C615E000E61356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD5EA83921C615E000E61356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD5EA83B21C615E100E61356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5EA84021C615E100E61356 /* QFBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5EA84421C615E100E61356 /* QFBridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFBridgeTests.swift; sourceTree = "<group>"; };
+		FD5EA84621C615E100E61356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5EA84B21C615E100E61356 /* QFBridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFBridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5EA84F21C615E100E61356 /* QFBridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFBridgeUITests.swift; sourceTree = "<group>"; };
+		FD5EA85121C615E100E61356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD5EA82921C615DF00E61356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5EA83D21C615E100E61356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5EA84821C615E100E61356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD4C83FD21C6906500A674F2 /* 继承 */ = {
+			isa = PBXGroup;
+			children = (
+				FD4C83FE21C6906500A674F2 /* HandsetGame.swift */,
+				FD4C83FF21C6906500A674F2 /* HandsetGameN.swift */,
+				FD4C840021C6906500A674F2 /* HandsetGameM.swift */,
+			);
+			path = "继承";
+			sourceTree = "<group>";
+		};
+		FD4C840121C6906500A674F2 /* 组合or聚合 */ = {
+			isa = PBXGroup;
+			children = (
+				FD4C840221C6906500A674F2 /* HandsetSoft.swift */,
+				FD4C840321C6906500A674F2 /* HandsetGames.swift */,
+				FD4C840421C6906500A674F2 /* HandsetAddressList.swift */,
+				FD4C841521C6972800A674F2 /* HandsetMusic.swift */,
+				FD4C840D21C690AD00A674F2 /* HandsetBrand.swift */,
+				FD4C840F21C691AA00A674F2 /* HandsetBrandM.swift */,
+				FD4C841121C691EF00A674F2 /* HandsetBrandN.swift */,
+				FD4C841321C696D000A674F2 /* HadnsetBrandO.swift */,
+			);
+			path = "组合or聚合";
+			sourceTree = "<group>";
+		};
+		FD5EA82321C615DF00E61356 = {
+			isa = PBXGroup;
+			children = (
+				FD5EA82E21C615DF00E61356 /* QFBridge */,
+				FD5EA84321C615E100E61356 /* QFBridgeTests */,
+				FD5EA84E21C615E100E61356 /* QFBridgeUITests */,
+				FD5EA82D21C615DF00E61356 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD5EA82D21C615DF00E61356 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD5EA82C21C615DF00E61356 /* QFBridge.app */,
+				FD5EA84021C615E100E61356 /* QFBridgeTests.xctest */,
+				FD5EA84B21C615E100E61356 /* QFBridgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD5EA82E21C615DF00E61356 /* QFBridge */ = {
+			isa = PBXGroup;
+			children = (
+				FD4C83FD21C6906500A674F2 /* 继承 */,
+				FD4C840121C6906500A674F2 /* 组合or聚合 */,
+				FD5EA82F21C615DF00E61356 /* AppDelegate.swift */,
+				FD5EA83121C615DF00E61356 /* ViewController.swift */,
+				FD5EA83321C615DF00E61356 /* Main.storyboard */,
+				FD5EA83621C615E000E61356 /* Assets.xcassets */,
+				FD5EA83821C615E000E61356 /* LaunchScreen.storyboard */,
+				FD5EA83B21C615E100E61356 /* Info.plist */,
+			);
+			path = QFBridge;
+			sourceTree = "<group>";
+		};
+		FD5EA84321C615E100E61356 /* QFBridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD5EA84421C615E100E61356 /* QFBridgeTests.swift */,
+				FD5EA84621C615E100E61356 /* Info.plist */,
+			);
+			path = QFBridgeTests;
+			sourceTree = "<group>";
+		};
+		FD5EA84E21C615E100E61356 /* QFBridgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD5EA84F21C615E100E61356 /* QFBridgeUITests.swift */,
+				FD5EA85121C615E100E61356 /* Info.plist */,
+			);
+			path = QFBridgeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD5EA82B21C615DF00E61356 /* QFBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5EA85421C615E100E61356 /* Build configuration list for PBXNativeTarget "QFBridge" */;
+			buildPhases = (
+				FD5EA82821C615DF00E61356 /* Sources */,
+				FD5EA82921C615DF00E61356 /* Frameworks */,
+				FD5EA82A21C615DF00E61356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QFBridge;
+			productName = QFBridge;
+			productReference = FD5EA82C21C615DF00E61356 /* QFBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD5EA83F21C615E100E61356 /* QFBridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5EA85721C615E100E61356 /* Build configuration list for PBXNativeTarget "QFBridgeTests" */;
+			buildPhases = (
+				FD5EA83C21C615E100E61356 /* Sources */,
+				FD5EA83D21C615E100E61356 /* Frameworks */,
+				FD5EA83E21C615E100E61356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD5EA84221C615E100E61356 /* PBXTargetDependency */,
+			);
+			name = QFBridgeTests;
+			productName = QFBridgeTests;
+			productReference = FD5EA84021C615E100E61356 /* QFBridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD5EA84A21C615E100E61356 /* QFBridgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5EA85A21C615E100E61356 /* Build configuration list for PBXNativeTarget "QFBridgeUITests" */;
+			buildPhases = (
+				FD5EA84721C615E100E61356 /* Sources */,
+				FD5EA84821C615E100E61356 /* Frameworks */,
+				FD5EA84921C615E100E61356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD5EA84D21C615E100E61356 /* PBXTargetDependency */,
+			);
+			name = QFBridgeUITests;
+			productName = QFBridgeUITests;
+			productReference = FD5EA84B21C615E100E61356 /* QFBridgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD5EA82421C615DF00E61356 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "情风";
+				TargetAttributes = {
+					FD5EA82B21C615DF00E61356 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FD5EA83F21C615E100E61356 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FD5EA82B21C615DF00E61356;
+					};
+					FD5EA84A21C615E100E61356 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FD5EA82B21C615DF00E61356;
+					};
+				};
+			};
+			buildConfigurationList = FD5EA82721C615DF00E61356 /* Build configuration list for PBXProject "QFBridge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD5EA82321C615DF00E61356;
+			productRefGroup = FD5EA82D21C615DF00E61356 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD5EA82B21C615DF00E61356 /* QFBridge */,
+				FD5EA83F21C615E100E61356 /* QFBridgeTests */,
+				FD5EA84A21C615E100E61356 /* QFBridgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD5EA82A21C615DF00E61356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5EA83A21C615E000E61356 /* LaunchScreen.storyboard in Resources */,
+				FD5EA83721C615E000E61356 /* Assets.xcassets in Resources */,
+				FD5EA83521C615DF00E61356 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5EA83E21C615E100E61356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5EA84921C615E100E61356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD5EA82821C615DF00E61356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4C841621C6972800A674F2 /* HandsetMusic.swift in Sources */,
+				FD4C840921C6906500A674F2 /* HandsetGames.swift in Sources */,
+				FD4C840621C6906500A674F2 /* HandsetGameN.swift in Sources */,
+				FD4C840721C6906500A674F2 /* HandsetGameM.swift in Sources */,
+				FD4C841421C696D000A674F2 /* HadnsetBrandO.swift in Sources */,
+				FD5EA83221C615DF00E61356 /* ViewController.swift in Sources */,
+				FD4C840E21C690AD00A674F2 /* HandsetBrand.swift in Sources */,
+				FD4C841021C691AA00A674F2 /* HandsetBrandM.swift in Sources */,
+				FD4C840A21C6906500A674F2 /* HandsetAddressList.swift in Sources */,
+				FD4C840821C6906500A674F2 /* HandsetSoft.swift in Sources */,
+				FD5EA83021C615DF00E61356 /* AppDelegate.swift in Sources */,
+				FD4C840521C6906500A674F2 /* HandsetGame.swift in Sources */,
+				FD4C841221C691EF00A674F2 /* HandsetBrandN.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5EA83C21C615E100E61356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5EA84521C615E100E61356 /* QFBridgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5EA84721C615E100E61356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5EA85021C615E100E61356 /* QFBridgeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD5EA84221C615E100E61356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD5EA82B21C615DF00E61356 /* QFBridge */;
+			targetProxy = FD5EA84121C615E100E61356 /* PBXContainerItemProxy */;
+		};
+		FD5EA84D21C615E100E61356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD5EA82B21C615DF00E61356 /* QFBridge */;
+			targetProxy = FD5EA84C21C615E100E61356 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD5EA83321C615DF00E61356 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD5EA83421C615DF00E61356 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD5EA83821C615E000E61356 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD5EA83921C615E000E61356 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD5EA85221C615E100E61356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD5EA85321C615E100E61356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD5EA85521C615E100E61356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 729BYBTS3K;
+				INFOPLIST_FILE = QFBridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-qingfengiOS.QFBridge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD5EA85621C615E100E61356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 729BYBTS3K;
+				INFOPLIST_FILE = QFBridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-qingfengiOS.QFBridge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD5EA85821C615E100E61356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFBridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-qingfengiOS.QFBridgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QFBridge.app/QFBridge";
+			};
+			name = Debug;
+		};
+		FD5EA85921C615E100E61356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFBridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-qingfengiOS.QFBridgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QFBridge.app/QFBridge";
+			};
+			name = Release;
+		};
+		FD5EA85B21C615E100E61356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFBridgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-qingfengiOS.QFBridgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QFBridge;
+			};
+			name = Debug;
+		};
+		FD5EA85C21C615E100E61356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFBridgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-qingfengiOS.QFBridgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QFBridge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD5EA82721C615DF00E61356 /* Build configuration list for PBXProject "QFBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5EA85221C615E100E61356 /* Debug */,
+				FD5EA85321C615E100E61356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5EA85421C615E100E61356 /* Build configuration list for PBXNativeTarget "QFBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5EA85521C615E100E61356 /* Debug */,
+				FD5EA85621C615E100E61356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5EA85721C615E100E61356 /* Build configuration list for PBXNativeTarget "QFBridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5EA85821C615E100E61356 /* Debug */,
+				FD5EA85921C615E100E61356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5EA85A21C615E100E61356 /* Build configuration list for PBXNativeTarget "QFBridgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5EA85B21C615E100E61356 /* Debug */,
+				FD5EA85C21C615E100E61356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD5EA82421C615DF00E61356 /* Project object */;
+}
